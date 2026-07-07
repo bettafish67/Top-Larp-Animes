@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+    font-size: 65px;
+    text-shadow: 1px 3px #000;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.center{
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-radius: 8px;
+}
+
+img.center:hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+}
